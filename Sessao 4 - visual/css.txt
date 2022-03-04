@@ -1,0 +1,50 @@
+Position
+
+static - a ordem que aparece na tela é a mesma que está no html
+relative - ele vai mudar o posicionamento do elemento em relação a ele mesmo e mantem a coordenada da posição original (o container não percebe que modificou a posicao) (utlizando sua posição,) - utilizando os elementos (top, bottom, left, righ)
+absolute - ele vai referencia sua posição pelo documento e não o elemento que está contido - (se referencia pelo primeiro elemento pai posicionado)
+fixed - ele se referencia pela janela do browser
+ 
+(top, bottom, left, righ) - é necessario trabalhar com esses elementos junto com o position
+
+z-index - vai ordenar posicão dos elementos, a ordem, o que vai fica em cima do que, (o z-index com numeração maior vai ficar por cima da numeração menor)
+-------------------------------------------
+
+
+transition: color 0.3s linear; - faz animação na transição das cores no menu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

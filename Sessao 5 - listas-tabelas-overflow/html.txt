@@ -1,0 +1,67 @@
+Listas aninhadas - são uma lista dentro de uma lista
+
+-------------------------
+
+lista de definição
+
+dl - definição da lista
+dt - tormo do termo
+dd - definição da descrição - do dt
+
+<dl>
+    <dt></dt>
+    <dd></dd>
+    <dt></dt>
+    <dd></dd>
+</dl>
+
+----------------------------
+
+
+tabelas
+
+table - incio da tabela
+td - coluna
+tr - linha - celula da tabela
+th - cabeçalho
+
+semantica da tabela
+
+caption - titulo da tabela
+thead - cabeçalho da tabela
+tfoot - rodape - fica em baixo do cabeçalho e encima do corpo
+tbody - corpo da tebala
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

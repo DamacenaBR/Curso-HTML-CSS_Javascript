@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Pagina de exemplo estrutura basica</title>
+	<meta charset='utf-8'>
+	<meta name="author" content="Bruno">
+	<meta name="description" content="Primeiro HTML">
+	<meta name="keywords" content="HTML5, tecnologia">
+
+	<style>
+		#radius{
+			background-color: orange;
+			width: 200px;
+			height: 200px;
+			margin: 50px auto;
+
+			border-radius: 25%;
+		}
+
+		#radius2{
+			background-color: red;
+			width: 200px;
+			height: 200px;
+			margin: 50px auto;
+
+			border-radius: 50px 10px 60px 40px;
+		}
+
+		#radius3{
+			background-color:green;
+			width: 200px;
+			height: 200px;
+			margin: 50px auto;
+
+			/* trabalha com elipse*/
+			border-radius: 50px 10px 60px 40px / 20px 50px 100px 0;
+			/* primeiro o valor x / e  no eixo y ex: 20px*/
+
+		}
+	</style>
+
+</head>
+<body>
+	<h1>CSS efeitos border-radius</h1>
+
+	<div id="radius"></div>
+
+	<div id="radius2"></div>
+
+	<div id="radius3"></div>
+</body>

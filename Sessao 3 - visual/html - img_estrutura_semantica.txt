@@ -1,0 +1,37 @@
+imagem
+
+src - caminho da imagem
+alt - texto alternativo da imagem - (acessibilidade - escutar o texto dento do atributo alt)
+
+--------------------------------------
+
+imagens
+
+.jpg / .jpeg - utilizado quando tenho muitas informações de cores - com tachas de compressao maior (perdendo qualidade)
+.png - utilziado para fotografia - utilizado quando tem poucas cores e precisa de transparencia
+.gif - utilizado para gifs animados e poucas cores - (aceita transparencia mais duras - sobrando alguns pixel nas bordas)
+.svg - formato de arquivo vetorial diferente de bitmap(jpg,gif,jpeg) - não perde resolução quando usuario da zoom - pode ser leve dependendo da imagem
+.webp - formato do google (bitmap) - mais comprido, tamanho menor (todos os brawser não suportam)
+
+---------------------------------
+tags não semanticas
+
+div - utilizado para estruturar o layouts - criando caixas
+span - funciona igual a div (colocar destaque em algum texto)
+
+---------------------------------------------------------------
+tags semanticas
+
+header - cabeçalho da pagina / sessão (logotipo da empresa/busca/ menu de navegação)
+nav - menu (navegação principal da pagina - navegação que nunca muda (igual em todas as paginas))
+main - texto (conteudo principal da pagina)
+footer - rodape da pagina/sessão
+
+section - reprenta uma sessão da pagina (separar um pegaço da pagina - separando em blocos)
+article - ponto central do documento/pagina (importante semanticamente)
+aside - inserir nela qualquer conteudo a parte do conteudo principal (area de propaganda) - não faz parte do conteudo principal
+
+--------------------------------------
+
+
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Pagina de exemplo estrutura basica</title>
+	<meta charset='utf-8'>
+	<meta name="author" content="Bruno">
+	<meta name="description" content="Primeiro HTML">
+	<meta name="keywords" content="HTML5, tecnologia">
+
+    <style>
+        
+        .formLogin{
+            width: 250px;
+            margin: 50px auto 0;
+            font-family: sans-serif;
+        }
+
+        .formLogin legend{
+            background-color: white;
+            display: inline-block;
+            padding: 10px;
+
+        }
+
+        .formLogin label{
+            margin-bottom: 5px;
+            display: block;
+            margin-top: 15px;
+        }
+        
+        #user, #pass, .btn{
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 15px;
+            font-size: 18px;
+            border: none;
+            background-color: #ccc;
+        }
+
+        #user:focus, #pass:focus{
+            background-color: white;
+        }
+
+        .formLogin fieldset{
+            background-color: grey;
+
+        }
+        .btn{
+            margin-top: 15px;
+        }
+
+        #user{
+            margin-bottom: 15px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Exemplo de formulario</h1>
+
+    <form action="#" method="POST" class="formLogin">
+
+        <fieldset>
+
+            <legend>Login</legend>
+
+            <label for="user">Digite o seu usuario</label>
+            <input type="text" id="user" name="user" autofocus>
+
+            <label for="pass">Digite a senha</label>
+            <input type="text" id="pass" name="pass">
+
+            <input type="submit" value="Logar" class="btn">
+
+        </fieldset>
+
+    </form>
+	
+</body>

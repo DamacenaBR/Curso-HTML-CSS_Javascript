@@ -1,0 +1,13 @@
+
+border-raius - colocar cantos arredondados
+
+box-shadow - faz efeito sombreamento  na caixa
+
+text-shadown - faz efeito sombreamento no texto
+
+gradientes lineares - trabalho como backgraud-image - passa duas cores inicial e final
+    (Utilizar um background-color caso o brawser do usario não suportar o gradiente)
+
+fontes customizadas - criar uma familia de fonte-family
+
+transiçoes suaves - vai fazer transições nos elementos

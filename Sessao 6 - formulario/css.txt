@@ -1,0 +1,4 @@
+textarea 
+    resize: none - tira elemento de lado esquerdo inferior de ajustar tamanho
+    redonly - não pode modificar o texto no textarea
+    disable - desabilitado

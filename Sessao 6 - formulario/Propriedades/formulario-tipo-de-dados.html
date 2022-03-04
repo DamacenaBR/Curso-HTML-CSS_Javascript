@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Pagina de exemplo estrutura basica</title>
+	<meta charset='utf-8'>
+	<meta name="author" content="Bruno">
+	<meta name="description" content="Primeiro HTML">
+	<meta name="keywords" content="HTML5, tecnologia">
+
+    <style>
+
+        body{
+            width: 80%;
+            margin: auto;
+        }
+
+        fieldset{
+            width: auto;
+            margin: 50px auto 0;
+            font-family: sans-serif;
+        }
+
+        .botao{
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Exemplo de formulario</h1>
+
+    <form action="#" method="POST" class="formDados">
+
+        <fieldset>
+
+            <legend>Dados Pessoais</legend>
+
+            <label>Email (text-placeholder)</label>
+            <input type="email" required maxlength="20" placeholder="Digite o email">
+
+            <br><br>
+
+            <label>Numero de filhos (number - min - max)</label>
+            <input type="number" min="0" max="10">
+
+            <br><br>
+
+            <label>Nascimento (date - min - max)</label>
+            <input type="date" min="2018-01-30" max="2138-01-30">
+
+            <br>
+
+            <p>Sexo: (radio)</p>
+
+            <!--Duas formas de vincular o texto e elemetento (apertando na palavra ele seleciona a opção)-->
+            <label for="masculino">Masculino </label>
+            <input id="masculino" type="radio" value="M" name="sexo">
+            
+            <label >Feminino
+                <input type="radio" value="F" name="sexo">
+            </label>
+            
+            <br><br>
+
+            <label>Estado (select - option)</label>
+            <select name="estado">
+                <option value="0">Selecione</option>
+                <option value="SP">São Paulo</option>
+                <option value="PB">Paraiba</option>
+                <option value="CE">Ceara</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+            
+            <legend>Área de interesse</legend>
+
+             <!--Duas formas de vincular o texto e elemetento (apertando na palavra ele seleciona a opção)-->
+            <input id="html" type="checkbox" name="html" value="html">
+            <label for="html">HTML (checkbox) - </label>
+
+            <br>
+            <label>
+                <input type="checkbox" name="css" value="css">
+                CSS
+            </label>
+            <br>
+
+            <label>
+                <input type="checkbox" name="javascript" value="javascript">
+                JAVASCRIPT
+            </label>
+
+            <br><br>
+
+            <label>
+                <input type="hidden" name="expira" value="2018/12/30">
+                (input hidden)
+            </label>
+
+            <br><br>
+
+            <label>
+                <input type="range" name="range" min="1" max="20" step="2">
+                (input range)
+            </label>
+
+            <br><br>
+
+            <label>
+                <input type="color" name="color">
+                (input color)
+            </label>
+
+            <br><br>
+
+            <label>
+                <input type="time" name="time">
+                (input time)
+            </label>
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>Mensagem</legend>
+            <textarea name="msg"cols="30"rows="10">Pode digitar</textarea>
+
+            <br><br>
+
+            <textarea 
+                disabled 
+                style="resize:none" 
+                name="contrato" 
+                cols="30" 
+                rows="10" 
+            >Desabilidato
+            </textarea>
+
+            <br><br>
+
+            <textarea 
+                readonly 
+                style="resize:none" 
+                name="contrato" 
+                cols="30" 
+                rows="10" 
+            >bloqueado
+            </textarea>
+
+            <br>
+
+            <label>
+                <input type="checkbox" checked> Li e aceito
+            </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Mandar aquivos</legend>
+            <label for="avatar">Selecionar o aquivo doc ou docx: (file)</label>
+
+            <input type="file" id="avatar" name="avatar" accept=".doc,.docx">
+        </fieldset>
+
+        <input class="botao" type="submit" value="mandar - submit">
+        <input class="botao" type="button" value="mandar - button">
+        <input class="botao" type="reset" value="mandar - reset">
+
+        <br>
+
+            <label>SELECT - OPTION - multipl - size</label>
+            <select name="SELECT" multiple size="3">
+                <option value="0">Valor 1</option>
+                <option value="1">Valor 2</option>
+                <option value="2">Valor 3</option>
+                <option value="3">Valor 4</option>
+                <option value="4">Valor 5</option>
+
+        </select>
+
+        <br><br><br><br><br>
+    </form>
+	
+</body>

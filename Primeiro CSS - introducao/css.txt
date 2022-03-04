@@ -1,0 +1,119 @@
+seletor {propriedade: valor;}
+ex: h1 {{color: red;}}
+
+seletor - quem vai ser mudado
+propriedade - qual propriedade vai mudar
+valor - o que vai mudar (cor: red)
+
+regra (seletor {propriedade: valor;})
+delcaração ({propriedade: valor;})
+
+---------------------------------------------------
+
+seletor de elemento
+
+p {...}
+h1{...}
+
+---------------------------------------------------
+
+selecionar por class
+
+<p class="minha-classe">...</p>
+
+.minha-classe{...}
+
+---------------------------------------------------
+
+selecionar pelo id
+
+<p id="meu-id">...</p>
+
+#meu-id{...}
+
+---------------------------------------------------
+fonts
+
+font-family - formatar a fonte - trabalhar com a familia da fonte
+font-size - formatar tamanho da fonte
+font-style - formatar o stilo da fonte (estilo (negrito,italico))
+font-variant - mudar a forma de escrita (small-caps - mosntra todas a maiusculo como maiusculo)
+font-weight - mudar para negrito...
+
+---------------------------------------------------
+text
+
+text-align - alinhamento do texto (esquerda, direita)
+text-decoration - delcaração do texto (sublinhado)
+text-indent - se tenho espamento no começo do paragrafo
+text-transform - se quero escrever tudo maiusculo ou não
+
+---------------------------------------------------
+
+cor
+
+color - mudar a cor
+background-color - mudar com de fundo
+
+
+---------------------------------------------------
+box model - modelo de caixa
+
+1 - margin-top - margin-bottom - margin-leff - margin-right
+2 - bord-top - bord-bottom - bord-leff - bord-right
+3 - padding-top - padding-bottom - padding-leff - padding-right
+4 - widht - bottom - height - right
+
+top - cima
+bottom - baixo
+left - esquerda
+right - direita
+
+---------------------------------------------------
+ Dica no modelo caixa
+ 
+ sempre utilizar a cor, espessura e estilo no elementos
+---------------------------------------------------
+
+Pesseudo classe
+
+verifica a interação do usuario com o elemento, se ja foi visitado passando o mouse em cima, link ja foi visitado antes
+
+a:link{...}
+    a:visited{...}
+        a:hover{...}
+            a:active{...}
+
+link - (pseudo classe selecionado) - link normal sem ter visitado
+visited - usuario visitou o link
+hover - passar o mouse por cima
+active - botão do mouse pressionado no elemento (link)
+
+---------------------------------------------------
+
+list-style
+
+list-style-type - modificar o tipo (ul - circu, square, disc | ol - lower-alpha (a,b,c), position - outside, inside)
+list-style-position - posição se e externo o mais interno
+list-style-image - utilizar imagem
+
+
+
+
+---------------------------------------------------
+
+
+/*inicio centralizar*/
+    width: 80%;
+    margin: auto;
+/* fim centralizar*/
+
+---------------------------------------------------
+
+
+
+
+---------------------------------------------------
+
+
+

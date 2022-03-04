@@ -1,0 +1,81 @@
+formulario
+
+forma de como os dados seram eviados
+<form action="pagina.php" method="get" - 
+    metodo "get" envia os dados pelo utl da pagina
+    metodo "post" encapsula e envia os dados junto com o corpo http (requisição)- não pode ser visualizada
+
+------------------------------------
+form - iniciar formulario
+
+entrada de dados
+input
+    type - (text) - definir o tipo de entrada de dados -
+    name - indenticar o indetificar que o servidor espera receber os dados
+
+botao
+    input - type (submit) - value ("ok" - texto do botão) 
+
+
+-----------------------------------
+
+semântica de formulario
+label - indenticar o formulario - o browser erá recolher que pertence ao modor de busca
+    for - indentificador do label para a busca (for="txtBusca")
+        deve colocar o indentificador (txtBusca) no id do motor de busca para vincular - (id="txtBusca")
+
+--------------------------------------------
+
+Organizar a entrada de dados
+
+fieldset - organizar os formulario - criar grupo logico
+    legend - legenda do formulario
+
+---------------------------------------------
+entrada de dados
+
+imput
+    text - tipo do input - texto
+    passoword - tipo do input - senha
+    checkbox - pode selecinar varias opções (ex: opçoes de comida) 
+    checkbox - pode selecinar varias opções (ex: opçoes de comida) - caixa 
+    radio - so pode selecionar uma das opções (ex: masculino, feminino)
+    file - para mandar aquivos
+    hidden - mandar dados escondidos pelo input - formulario
+    submit - tipo do input - botão de enviar
+    button - tipo do input - botão para ser tratado com javascript - tem que configurar oq vai fazer
+    reset - limpar o formulario - botão de resetar
+
+input HTML5 - acrescenta semantica
+    email - tipo do input - email
+    tel - tipo do input - telefone
+    url - tipo do input - url
+    search - tipo do input - pesquisa
+    number - tipo do input - numero
+    range - O range coloca um intervalo (com entre 1 e 10) - input de correr como scrom vertical
+    date  - tipo do input - data
+    time  - tipo do input - tempo
+    color - escolher cor 
+
+textarea - caixa de texto grande (cols, rows) - (resize - tira elemento de lado esquerdo inferior de ajustar tamanho)
+    resize - tira elemento de lado esquerdo inferior de ajustar tamanho - css
+
+<select> - selecinar opçao (como selecionar o estado onde mora)
+    <option>
+<select>
+
+Atributos
+    autofocus - fixa inicialmente o curso no input automaticamente
+    checked- ele faz que o checkbox ou radio inicie checago (selecionado) ou nao
+    requered - obriga a preencher os dados no elemento
+    maxlength - numero maximo de caracteres
+    multiple - trabalho junto com o tag select - podendo selecionar mais de uma opção
+    placeholder - texto de dica do que deve fazer no input
+
+    max - o maximo de numero que pode colocar no imput
+    min - o minimo de numero que pode colocar no imput
+    cols - colunas
+    rows - linhas
+    size - quantidade - podendo ser utilizado com select - mostrando a quantidade de elementos escolhendo no size 
+    step - o valor que vai pular (utilzado no range)
+----------------------------------------------------

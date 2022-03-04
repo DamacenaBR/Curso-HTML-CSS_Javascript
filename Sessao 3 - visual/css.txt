@@ -1,0 +1,85 @@
+imagem 
+
+backgroud-image: url(...);
+
+---------------------------------------
+
+imagens
+
+.jpg / .jpeg - utilizado quando tenho muitas informações de cores - com tachas de compressao maior (perdendo qualidade)
+.png - utilziado para fotografia - utilizado quando tem poucas cores e precisa de transparencia
+.gif - utilizado para gifs animados e poucas cores - (aceita transparencia mais duras - sobrando alguns pixel nas bordas)
+.svg - formato de arquivo vetorial diferente de bitmap(jpg,gif,jpeg) - não perde resolução quando usuario da zoom - pode ser leve dependendo da imagem
+.webp - formato do google (bitmap) - mais comprido, tamanho menor (todos os brawser não suportam)
+
+a melhor forma de trabalhar com icons é com formato svg - vetorial
+    - não é aconselhavel trabalhar com imagem tipo pixel - pois perde a qualidade em telas maiores, ex: 4k
+---------------------------------
+
+float: left - imagem se encaixa com o texto pela esquerda
+float: right - imagem se encaixa com o texto pela direita
+background-repeat: no-repeat - a imagem de fondo não vai se repetir
+background-attachment: scroll - a imagem vai se repetir no fundo
+background-attachment: fixed - a imagem fica fixa - parte da imagem pode sumir
+background-size: - pode configurar o tamanho da imagem a ser mosntrando no fundo
+
+----------------------------------
+
+--CONNFIGURAÇÃO DE IMAGEM DE BACKGROUD
+background-attachment: fixed;
+background-size: 100% 100%; - LARGURA E ALTURA
+background-repeat: no-repeat;
+
+background-size: conain - ocupa todo a tela - vai privilegir a conteudo da imagem
+background-size: cover - esconde um pedaço da imagem
+
+background-position: right bottom - da preferencia sebre a parte de baixo e a direita da imagem
+-----------------------------------
+
+editando texto
+
+text-transform - transforma texto em maiusculo e minusculo
+text-showdom - desloca para a posicao desejada - text-showdom: 3px 3px - mover para direia - mover para baixo - esfumaçamento - cor
+
+letter-spacing - coloca espaçamento estre as letras
+
+backgroud: rgba(0,0,0,0.3) - red,green-blue - tonação da transparencia - coloca cores transparente
+-------------------------------------
+
+Diplay - configurando tipo e posicionamento da linha e bloco
+BLoco - box
+
+
+inline - (a, (strong, b), (em, i), span, img)
+block - (p, h1...h6, div, (ul, ol, li), footer)
+inline-block - transforma o elemento em inline e bloco
+none - remove o elemento do html
+
+visibility: fidden - esconde o conteudo, mas manter o espaço reservado
+
+box-sizing: border-box - vai definir o tamanho final do block - pelo width e height, com isso o pedingo não irá somar com ele
+---------------------------------------
+
+Float
+
+right - vai terntar se encaixar a direita do proximo elemento
+left - vai terntar se encaixar a esquerda do proximo elemento
+none -  não aplica nenhuma propriedade - fluxo normal de desmonstração de elementos
+
+oveflow: auto - ajuda a o contaner enchergar a altura dos elementos utilizndo float
+------------------------------------------
+
+Clear - limpa elemento que tenha float antes - não vai modificar seu posicionamenrto em relaçao ai flot anterior
+
+rignt - 
+left -
+none -
+both - iguinora quaquer float anterior
+-----------------------------------------
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+overflow - pode ser utilizado para esconder conteudo que passa as bordas de um elemento.
+
+overflow: visible - deixar os texto visivel
+overflow: hidden - esconde os texto que passa das bordas
+overflow: scroll - criar um scroll (barra de rolagem) - ele cria scrol na direita e abaixo no elemento
+overflow: auto - criar um scroll (barra de rolagem)  onde precisa
+
+-------------------------------------------------------
+
+tabelas
+
+colspan - mesclagem de coluna
+rowspan - mesclagem de linha
+
+border-collapse - (separate / collapse) - formartar como a tabela vai ser apresentada no browser
+separate - padrão
+collapse - retira os espaçametos entre as linhas e colunas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

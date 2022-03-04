@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Pagina de exemplo estrutura basica</title>
+	<meta charset='utf-8'>
+	<meta name="author" content="Bruno">
+	<meta name="description" content="Primeiro HTML">
+	<meta name="keywords" content="HTML5, tecnologia">
+
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+
+            /*transicão mais suave*/
+            transition-property: width, height;
+            transition-duration: 1s, 3s;
+
+            /*vai controlar se a função acelera ou desacelera*/
+
+            /*
+                linear - termina na mesma velociadade
+                ease - começa e desacelera no final
+                ease-in - acelera e para bruscamente
+                ease-out - começa e vai desacelerado
+                ease-in-out -fica mais suave a transição
+
+                https://cubic-bezier.com/#.17,.67,.83,.67 - site para auxiliar a escontra os valores
+            */
+
+            transition-delay: .0s, .8;
+            transition-timing-function: cubic-bezier(.67,-0,.5,1.5);
+        }
+        /*Passar o mouse por cima*/
+        div:hover{
+            width: 400px;
+            height: 400px;
+        }
+
+        
+    </style>
+
+</head>
+<body>
+	<h1>CSS efeitos transicoes-suaves</h1>
+    <div>1</div>
+</body>
